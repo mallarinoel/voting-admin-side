@@ -1,0 +1,19 @@
+voters_id
+Minor Bugs
+============================
+1. bawal madoble yung student Id pero pwede madoble yung names
+2.
+3.
+
+
+
+======================================
+SECURITY SIDE
+
+* Paano maiiwasan ang bruteforce sa login?
+
+1. Limit login attemp. - gawa tayo codes para every wrong pass malolocked sila 3 mins
+2. sa Registration side dapat magkaroon tayo validation for Strong Password
+3. Kung kaya lagyan ng reCaptcha mas better
+
+4. Maglagay ng firewall sa VPS hosting

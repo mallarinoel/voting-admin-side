@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #3188c1;
+    color: #1d1d1d;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-box{
+    width: 400px;
+    padding: 15px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.login-box .error-txt{
+    text-align: center;
+    color: red;
+    font-weight: 400;
+}
+
+.login-box .login-logo{
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.login-box .login-box-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.login-box .login-box-body .login-box-msg{
+    text-align: center;
+}
+
+.login-box .login-box-body form{
+    padding: 10px 0;
+}
+
+.login-box-body form .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form .form-group input {
+outline: none;
+height: 35px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+form .form-group input:focus{
+    border: 1px solid #000;
+}
+
+form .col-xs-4 button{
+    padding: 5px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color:  #3188c1;
+    border-radius: 2px;
+}
+form .col-xs-4 button:hover{
+background-color: #1073b4;
+}
